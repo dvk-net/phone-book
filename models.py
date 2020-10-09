@@ -45,7 +45,6 @@ class Phone(Base):
 
     @classmethod
     def add(cls, phone, user):
-        print("phone", phone, "eser", type(user)) 
         phone = cls(phone=phone, user=user)
         session.add(phone)
         session.commit()

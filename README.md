@@ -10,3 +10,4 @@
     ```bash
     pip freeze > ./requirements.txt
     ```
+1. MVC
