@@ -1,5 +1,7 @@
 # How to guide
 
+[Video explanation (RUS)](https://youtu.be/xosRWR3V5lg)
+
 1. Create `venv`
     ```bash
     python3 -m venv env
