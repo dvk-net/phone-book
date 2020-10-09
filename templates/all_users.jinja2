@@ -1,0 +1,10 @@
+Все записи:
+
+Всего записей - {{ users|count }}
+{% for user in users %}
+ФИО  - {{ user }}:
+Телефоны:
+{% for number in user.phones %}    {{number}}
+{% endfor %}====================================
+{% endfor %}
+
