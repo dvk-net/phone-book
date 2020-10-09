@@ -11,6 +11,7 @@ celerybeat.pid
 celerybeat-schedule
 init.sql
 *.pid
+*.sqlite
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
